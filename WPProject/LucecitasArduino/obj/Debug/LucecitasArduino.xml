@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LucecitasArduino
+</name>
+</assembly>
+<members>
+<member name="M:LucecitasArduino.App.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="P:LucecitasArduino.AppResources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché usada por esta clase.
+</summary>
+</member><member name="P:LucecitasArduino.AppResources.Culture">
+	<summary>
+  Invalida la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos que usan esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:LucecitasArduino.AppResources.ResourceFlowDirection">
+	<summary>
+  Busca una cadena traducida similar a LeftToRight.
+</summary>
+</member><member name="P:LucecitasArduino.AppResources.ResourceLanguage">
+	<summary>
+  Busca una cadena traducida similar a us-EN.
+</summary>
+</member><member name="P:LucecitasArduino.AppResources.ApplicationTitle">
+	<summary>
+  Busca una cadena traducida similar a MI APLICACIÓN.
+</summary>
+</member><member name="P:LucecitasArduino.AppResources.AppBarButtonText">
+	<summary>
+  Busca una cadena traducida similar a botón
+</summary>
+</member><member name="P:LucecitasArduino.AppResources.AppBarMenuItemText">
+	<summary>
+  Busca una cadena traducida similar a Elemento de menú.
+</summary>
+</member><member name="T:LucecitasArduino.AppResources">
+	<summary>
+  Clase de recurso fuertemente tipado para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="P:LucecitasArduino.App.RootFrame">
+	<summary>
+ Proporcionar acceso sencillo al marco raíz de la aplicación telefónica.
+ </summary>
+	<returns>Marco raíz de la aplicación telefónica.</returns>
+</member><member name="M:LucecitasArduino.App.#ctor">
+	<summary>
+ Constructor para el objeto Application.
+ </summary>
+</member><member name="T:LucecitasArduino.LocalizedStrings">
+	<summary>
+ Proporciona acceso a los recursos de cadena.
+ </summary>
+</member><member name="M:LucecitasArduino.MainPage.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

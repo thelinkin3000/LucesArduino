@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.0">
+  <CommandSet xml:lang="es-MX">
+    <CommandPrefix>Cortana</CommandPrefix>
+    <Example> Prender luz </Example>
+
+    <Command Name="TurnLightOn">
+      <Example> Prender Luz </Example>
+      <ListenFor> Prender Luz </ListenFor>
+      <Feedback> Prendiendo Luz... </Feedback>
+      <Navigate Target="/MainPage.xaml"/>
+    </Command>
+
+    <Command Name="TurnLightOff">
+      <Example> Apagar Luz </Example>
+      <ListenFor> Apagar Luz </ListenFor>
+      <Feedback> Apagando Luz... </Feedback>
+      <Navigate Target="/MainPage.xaml" />
+    </Command>
+
+  </CommandSet>
+</VoiceCommands>
+
+<!-- Ejemplo -->
+<!--
+
+    En el ejemplo anterior se muestra un juego hipotético denominado 'Contoso ROD3O!' que define dos
+    Comandos que un usuario puede pronunciar para iniciar una nueva partida o para volver a jugar en uno de los tres niveles posibles del juego.  
+    Para iniciar el comando PlayGame, un usuario puede decir "Contoso Rodeo jugar una nueva partida" o "Contoso Rodeo
+    jugar nueva partida". Cualquiera de las dos frases iniciará una partida nueva. Para iniciar el segundo Comando, un usuario puede decir
+    "Contoso Rodeo volver a jugar nivel uno", "Contoso Rodeo volver a jugar nivel dos" o "Contoso Rodeo volver a jugar nivel 
+    tres".
+    El segundo Comando muestra cómo usar una PhraseList con un Comando. La aplicación puede actualizar 
+    dinámicamente las PhraseList (por ejemplo, si un usuario desbloquea una partida, una característica o un nivel nuevos, quizás 
+    desees permitir que el usuario use comandos para características nuevas basados en comandos de voz ya registrados).
+    El tercer Comando muestra cómo la secuencia {*} puede establecer un paralelismo con otro comando para reconocer
+    texto no definido en el CommandSet.
+
+  Nota:
+
+      [y] Indica que "y" es opcional. El establecimiento de palabras de conexión como esta palabra opcional
+            puede ayudar a que "Contoso Rodeo, jugar nueva partida" y "abrir Contoso Rodeo y jugar
+            una nueva partida" sean una forma de hablar natural.
+                 
+      {number} Se define de forma independiente del Comando y se asigna a "uno", "dos" o "tres".
+
+-->
